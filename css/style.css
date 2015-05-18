@@ -1,0 +1,199 @@
+/*
+Project Name: Blank Template
+Client: Relaxr
+Author: Kathy Ong
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+
+h2{
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin: 100px;
+}
+
+h3{
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  color: #033048;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  background-image: url(../images/header_bg.jpg);
+  padding: 50px 100px 50px 100px;
+}
+
+.benefits{
+  background-color: #f0efef;
+  font-size: 20px;
+  color: #033048;
+  padding-bottom:30px;
+  padding-left: 20px;
+}
+
+.box{
+  padding-top: 50px;
+}
+
+.description{
+  font-weight: lighter;
+  font-size: 13px;
+  color: #606161;
+}
+
+.ocean{
+  background-image: url(../images/testimonial_bg.jpg);
+  padding:100px;
+}
+
+.quote{
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 20px 50px 0 50px;
+}
+
+.name{
+  font-weight: bold;
+  font-style: normal;
+}
+
+h4{
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #033048;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li{
+  font-weight: lighter;
+  font-size: 13px;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 25px;
+}
+
+h5{
+  font-weight: bolder;
+  font-size: 24px;
+  color:#f9e42e;
+  padding: 20px;
+}
+
+footer {
+  font-weight: lighter;
+  font-size: 9px;
+  color: white;
+  padding:20px;
+}
+
+.social{
+  margin: 30px;
+}
+.bottom{
+  background-color: #2F2F2F;
+  text-align: center;
+}
+
+.media{
+ display: inline;
+ padding: 10px;
+}
+
+.yellow{
+  background-color: #f9e42e;
+  padding: 30px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
